@@ -36,6 +36,13 @@ The IP address can be copied into a web browser where a Django web application i
 
 **NOTE: Due to the fetching of the Docker container, it can take a minute or so for the web app to be available.**
 
+#### 4. Clean Up
+
+If you'd like to destroy all the infrastructure created for this exercise (the VPC, instances, etc...) it's as easy as
+
+    terraform destroy
+
+
 ### The Web Application
 
 The web appliation is a very basic "It Worked!" style page, but it is not the default Apache/Nginx page. It's a (very lightly) scaffolded Django application running inside of a Docker container.
