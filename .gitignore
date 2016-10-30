@@ -1,2 +1,4 @@
 creds.txt
+*.tfstate*
 .DS_Store
+.env
