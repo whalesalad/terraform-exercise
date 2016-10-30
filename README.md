@@ -34,6 +34,8 @@ elb_dns_name = 54.238.206.140
 
 The IP address can be copied into a web browser where a Django web application is running on port 80.
 
+**NOTE: Due to the fetching of the Docker container, it can take a minute or so for the web app to be available.**
+
 ### The Web Application
 
 The web appliation is a very basic "It Worked!" style page, but it is not the default Apache/Nginx page. It's a (very lightly) scaffolded Django application running inside of a Docker container.
