@@ -1,4 +1,4 @@
-# ReactiveOps Coding Challenge
+# Terraform Exercise
 
 #### 1. Environment
 
